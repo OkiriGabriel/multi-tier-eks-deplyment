@@ -195,6 +195,8 @@ resource "aws_network_acl_rule" "db_nacl_outbound" {
   cidr_block     = "0.0.0.0/0"
 }
 
+
+
 # Deploy the application and database using Helm
 
 # resource "helm_release" "app_release" {
